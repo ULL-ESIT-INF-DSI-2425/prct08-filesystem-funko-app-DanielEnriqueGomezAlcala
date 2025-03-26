@@ -1,0 +1,11 @@
+{
+  "id": 25,
+  "nombre": "Batman",
+  "descripcion": "Figura de acción de Batman",
+  "tipo": "Pop!",
+  "genero": "Peliculas y TV",
+  "franquicia": "DC Comics",
+  "numero": 1,
+  "exclusivo": true,
+  "valor": 25.99
+}
