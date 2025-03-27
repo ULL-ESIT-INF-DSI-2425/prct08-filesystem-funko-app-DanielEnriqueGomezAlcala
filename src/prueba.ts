@@ -1,15 +1,11 @@
-import yargs from 'yargs';
-import { hideBin } from 'yargs/helpers';
+console.log('Starting');
 
-yargs(hideBin(process.argv))
-  .command('add', 'Adds a funko', {
-  id: {
-   description: 'Funko ID',
-   type: 'number',
-   demandOption: true
-  }
- }, (argv) => {
-  console.log(argv.id);
- })
- .help()
- .argv;
+setTimeout(() => {
+  console.log('Two seconds have passed');
+}, 2000);
+
+setTimeout(() => {
+  console.log('Zero seconds have passed');
+}, 0);
+
+console.log('Finishing');
